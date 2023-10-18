@@ -4,8 +4,8 @@
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
   </PropertyGroup>
   <ItemGroup Label="ProjectConfigurations">
-    <ProjectConfiguration Include="C:\Users\ADMIN\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0|x64">
-      <Configuration>C:\Users\ADMIN\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0</Configuration>
+    <ProjectConfiguration Include="C:\Users\ADMIN\Documents\OOP\out\build\x64-release|x64">
+      <Configuration>C:\Users\ADMIN\Documents\OOP\out\build\x64-release</Configuration>
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
@@ -18,7 +18,7 @@
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='C:\Users\ADMIN\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0|x64'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='C:\Users\ADMIN\Documents\OOP\out\build\x64-release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
@@ -32,14 +32,14 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='C:\Users\ADMIN\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0|x64'">C:\Users\ADMIN\Documents\OOP\Build\OOP\C:\Users\ADMIN\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='C:\Users\ADMIN\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0|x64'">OOP.dir\C:\Users\ADMIN\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='C:\Users\ADMIN\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0|x64'">OOP</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='C:\Users\ADMIN\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0|x64'">.exe</TargetExt>
-    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='C:\Users\ADMIN\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0|x64'">true</LinkIncremental>
-    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='C:\Users\ADMIN\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='C:\Users\ADMIN\Documents\OOP\out\build\x64-release|x64'">C:\Users\ADMIN\Documents\OOP\Build\OOP\C:\Users\ADMIN\Documents\OOP\out\build\x64-release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='C:\Users\ADMIN\Documents\OOP\out\build\x64-release|x64'">OOP.dir\C:\Users\ADMIN\Documents\OOP\out\build\x64-release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='C:\Users\ADMIN\Documents\OOP\out\build\x64-release|x64'">OOP</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='C:\Users\ADMIN\Documents\OOP\out\build\x64-release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='C:\Users\ADMIN\Documents\OOP\out\build\x64-release|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='C:\Users\ADMIN\Documents\OOP\out\build\x64-release|x64'">true</GenerateManifest>
   </PropertyGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='C:\Users\ADMIN\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0|x64'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='C:\Users\ADMIN\Documents\OOP\out\build\x64-release|x64'">
     <ClCompile>
       <AdditionalIncludeDirectories>C:\Users\ADMIN\Documents\OOP\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
@@ -49,13 +49,13 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="C:\Users\ADMIN\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="C:\Users\ADMIN\Documents\OOP\out\build\x64-release"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR=\"C:\Users\ADMIN\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0\"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR=\"C:\Users\ADMIN\Documents\OOP\out\build\x64-release\"</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>C:\Users\ADMIN\Documents\OOP\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
@@ -72,8 +72,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/ADMIN/Documents/OOP/Build/OOP/C:\Users\ADMIN\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0/OOP.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/ADMIN/Documents/OOP/Build/OOP/C:\Users\ADMIN\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0/OOP.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/ADMIN/Documents/OOP/Build/OOP/C:\Users\ADMIN\Documents\OOP\out\build\x64-release/OOP.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/ADMIN/Documents/OOP/Build/OOP/C:\Users\ADMIN\Documents\OOP\out\build\x64-release/OOP.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -83,8 +83,8 @@
   <ItemGroup>
     <CustomBuild Include="C:\Users\ADMIN\Documents\OOP\OOP\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='C:\Users\ADMIN\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0|x64'">Building Custom Rule C:/Users/ADMIN/Documents/OOP/OOP/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='C:\Users\ADMIN\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0|x64'">setlocal
+      <Message Condition="'$(Configuration)|$(Platform)'=='C:\Users\ADMIN\Documents\OOP\out\build\x64-release|x64'">Building Custom Rule C:/Users/ADMIN/Documents/OOP/OOP/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='C:\Users\ADMIN\Documents\OOP\out\build\x64-release|x64'">setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ADMIN/Documents/OOP -BC:/Users/ADMIN/Documents/OOP/Build --check-stamp-file C:/Users/ADMIN/Documents/OOP/Build/OOP/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
@@ -93,14 +93,14 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='C:\Users\ADMIN\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='C:\Users\ADMIN\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0|x64'">C:\Users\ADMIN\Documents\OOP\Build\OOP\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='C:\Users\ADMIN\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0|x64'">false</LinkObjects>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='C:\Users\ADMIN\Documents\OOP\out\build\x64-release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='C:\Users\ADMIN\Documents\OOP\out\build\x64-release|x64'">C:\Users\ADMIN\Documents\OOP\Build\OOP\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='C:\Users\ADMIN\Documents\OOP\out\build\x64-release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\ADMIN\Documents\OOP\OOP\OOP.cpp" />
     <ClInclude Include="C:\Users\ADMIN\Documents\OOP\OOP\OOP.h" />
+    <ClCompile Include="C:\Users\ADMIN\Documents\OOP\OOP\OOP.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\ADMIN\Documents\OOP\Build\ZERO_CHECK.vcxproj">

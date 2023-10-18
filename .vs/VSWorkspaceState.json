@@ -20,9 +20,8 @@
     "\\OOP",
     "\\OOP\\out",
     "\\OOP\\out\\build",
-    "\\out",
-    "\\out\\build"
+    "\\out"
   ],
-  "SelectedNode": "\\CMakeLists.txt",
+  "SelectedNode": "\\OOP\\OOP.h",
   "PreviewInSolutionExplorer": false
 }
