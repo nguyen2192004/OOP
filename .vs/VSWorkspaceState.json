@@ -14,9 +14,15 @@
   "ExpandedNodes": [
     "",
     "\\Build",
+    "\\Build\\CMakeFiles",
+    "\\Build\\OOP",
+    "\\library",
     "\\OOP",
-    "\\out"
+    "\\OOP\\out",
+    "\\OOP\\out\\build",
+    "\\out",
+    "\\out\\build"
   ],
-  "SelectedNode": "\\OOP\\OOP.cpp",
+  "SelectedNode": "\\CMakeLists.txt",
   "PreviewInSolutionExplorer": false
 }
