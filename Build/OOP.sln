@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{00605F96-D1A8-3474-A82A-6507DE917DDC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DBD6A4B2-4A3A-3D13-AE76-A679ADA56CE1} = {DBD6A4B2-4A3A-3D13-AE76-A679ADA56CE1}
+		{20D32E9E-B284-36CD-84BD-9A828DD3BF93} = {20D32E9E-B284-36CD-84BD-9A828DD3BF93}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OOP", "OOP\OOP.vcxproj", "{DBD6A4B2-4A3A-3D13-AE76-A679ADA56CE1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{20D32E9E-B284-36CD-84BD-9A828DD3BF93} = {20D32E9E-B284-36CD-84BD-9A828DD3BF93}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vcxproj", "{20D32E9E-B284-36CD-84BD-9A828DD3BF93}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		C:\Users\ADMIN\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0|x64 = C:\Users\ADMIN\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00605F96-D1A8-3474-A82A-6507DE917DDC}.C:\Users\ADMIN\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0|x64.ActiveCfg = C:\Users\ADMIN\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0|x64
+		{DBD6A4B2-4A3A-3D13-AE76-A679ADA56CE1}.C:\Users\ADMIN\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0|x64.ActiveCfg = C:\Users\ADMIN\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0|x64
+		{DBD6A4B2-4A3A-3D13-AE76-A679ADA56CE1}.C:\Users\ADMIN\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0|x64.Build.0 = C:\Users\ADMIN\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0|x64
+		{20D32E9E-B284-36CD-84BD-9A828DD3BF93}.C:\Users\ADMIN\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0|x64.ActiveCfg = C:\Users\ADMIN\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0|x64
+		{20D32E9E-B284-36CD-84BD-9A828DD3BF93}.C:\Users\ADMIN\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0|x64.Build.0 = C:\Users\ADMIN\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A0EC863-BE4C-31B8-8A22-B8FCD9705D29}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

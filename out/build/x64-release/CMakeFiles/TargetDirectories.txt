@@ -1,0 +1,5 @@
+C:/Users/ADMIN/Documents/OOP/out/build/x64-release/CMakeFiles/edit_cache.dir
+C:/Users/ADMIN/Documents/OOP/out/build/x64-release/CMakeFiles/rebuild_cache.dir
+C:/Users/ADMIN/Documents/OOP/out/build/x64-release/OOP/CMakeFiles/OOP.dir
+C:/Users/ADMIN/Documents/OOP/out/build/x64-release/OOP/CMakeFiles/edit_cache.dir
+C:/Users/ADMIN/Documents/OOP/out/build/x64-release/OOP/CMakeFiles/rebuild_cache.dir
