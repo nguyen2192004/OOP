@@ -13,7 +13,9 @@
   },
   "ExpandedNodes": [
     "",
-    "\\OOP"
+    "\\Build",
+    "\\OOP",
+    "\\out"
   ],
   "SelectedNode": "\\OOP\\OOP.cpp",
   "PreviewInSolutionExplorer": false

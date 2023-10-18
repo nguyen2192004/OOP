@@ -3,7 +3,7 @@
 #
 
 # Add source to this project's executable.
-add_executable (OOP "OOP.cpp" "OOP.h")
+add_executable (OOP  "OOP.h" "MAIN.cpp" "OOP.cpp")
 target_link_libraries(OOP ${CMAKE_SOURCE_DIR}/library/sfml-graphics.lib)
 target_link_libraries(OOP ${CMAKE_SOURCE_DIR}/library/sfml-audio.lib)
 target_link_libraries(OOP ${CMAKE_SOURCE_DIR}/library/sfml-network.lib)

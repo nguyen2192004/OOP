@@ -77,6 +77,14 @@ build rebuild_cache: phony CMakeFiles\rebuild_cache.util
 
 build cmake_object_order_depends_target_OOP: phony || OOP\CMakeFiles\OOP.dir
 
+build OOP\CMakeFiles\OOP.dir\MAIN.CPP.obj: CXX_COMPILER__OOP_unscanned_Debug C$:\Users\ADMIN\Documents\OOP\OOP\MAIN.CPP || cmake_object_order_depends_target_OOP
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI
+  INCLUDES = -IC:\Users\ADMIN\Documents\OOP\include
+  OBJECT_DIR = OOP\CMakeFiles\OOP.dir
+  OBJECT_FILE_DIR = OOP\CMakeFiles\OOP.dir
+  TARGET_COMPILE_PDB = OOP\CMakeFiles\OOP.dir\
+  TARGET_PDB = OOP\OOP.pdb
+
 build OOP\CMakeFiles\OOP.dir\OOP.cpp.obj: CXX_COMPILER__OOP_unscanned_Debug C$:\Users\ADMIN\Documents\OOP\OOP\OOP.cpp || cmake_object_order_depends_target_OOP
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI
   INCLUDES = -IC:\Users\ADMIN\Documents\OOP\include
@@ -93,7 +101,7 @@ build OOP\CMakeFiles\OOP.dir\OOP.cpp.obj: CXX_COMPILER__OOP_unscanned_Debug C$:\
 #############################################
 # Link the executable OOP\OOP.exe
 
-build OOP\OOP.exe: CXX_EXECUTABLE_LINKER__OOP_Debug OOP\CMakeFiles\OOP.dir\OOP.cpp.obj | C$:\Users\ADMIN\Documents\OOP\library\sfml-graphics.lib C$:\Users\ADMIN\Documents\OOP\library\sfml-audio.lib C$:\Users\ADMIN\Documents\OOP\library\sfml-network.lib C$:\Users\ADMIN\Documents\OOP\library\sfml-system.lib C$:\Users\ADMIN\Documents\OOP\library\sfml-window.lib
+build OOP\OOP.exe: CXX_EXECUTABLE_LINKER__OOP_Debug OOP\CMakeFiles\OOP.dir\MAIN.CPP.obj OOP\CMakeFiles\OOP.dir\OOP.cpp.obj | C$:\Users\ADMIN\Documents\OOP\library\sfml-graphics.lib C$:\Users\ADMIN\Documents\OOP\library\sfml-audio.lib C$:\Users\ADMIN\Documents\OOP\library\sfml-network.lib C$:\Users\ADMIN\Documents\OOP\library\sfml-system.lib C$:\Users\ADMIN\Documents\OOP\library\sfml-window.lib
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = C:\Users\ADMIN\Documents\OOP\library\sfml-graphics.lib  C:\Users\ADMIN\Documents\OOP\library\sfml-audio.lib  C:\Users\ADMIN\Documents\OOP\library\sfml-network.lib  C:\Users\ADMIN\Documents\OOP\library\sfml-system.lib  C:\Users\ADMIN\Documents\OOP\library\sfml-window.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
